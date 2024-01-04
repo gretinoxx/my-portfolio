@@ -18,7 +18,7 @@
 [data-theme="light"] {
     --color-bg1: #e6e6e6;
     --color-bg2: #ffffff;
-    --color-fg: #270044;
+    --color-fg: #272135;
   }
   
 [data-theme="dark"] {
@@ -32,6 +32,26 @@ body {
     display: flex;
     flex-direction: column;
     color:var(--color-fg);
+}
+
+#button {
+    all: unset;
+    width: 14em;
+    height: 14em;
+    display: flex;
+    position: fixed;
+    bottom: -7em;
+    right: -7em;
+    background-color: var(--color-fg);
+    border-radius: 50%;
+}
+
+#buttonImg {
+    width: 4em;
+    height: 4em;
+    position: fixed;
+    bottom: 0.75em;
+    right: 0.75em;
 }
 
 h1, h2, h3, h4 {
