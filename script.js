@@ -21,12 +21,10 @@ let currentThemeSetting = calculateSettingAsThemeString({
   systemSettingDark,
 });
 
-const button = document.querySelector("[data-theme-toggle]");
+const button = document.getElementById("button");
 const buttonImg = document.getElementById("buttonImg");
 
-button.addEventListener("click", () => {
-  const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
-
+function updateTheme(newTheme) {
   // update the img and the aria-label
   const newCta =
     newTheme === "dark" ? "Change to light theme" : "Change to dark theme";
@@ -45,4 +43,13 @@ button.addEventListener("click", () => {
 
   // update the currentThemeSetting in memory
   currentThemeSetting = newTheme;
+}
+
+button.addEventListener("click", () => {
+  const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+  updateTheme(newTheme);
 });
+
+window.onload = () => {
+  updateTheme(currentThemeSetting);
+};

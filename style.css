@@ -42,6 +42,7 @@ body {
     position: fixed;
     bottom: -7em;
     right: -7em;
+    z-index: 1;
     background-color: var(--color-fg);
     border-radius: 50%;
 }
