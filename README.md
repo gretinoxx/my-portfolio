@@ -1,3 +1,3 @@
-# emmariescurrena portfolio
+# emmariescurrena's portfolio
 
-A page to upload projects
+A page to showcase my projects
