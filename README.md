@@ -1,5 +1,3 @@
-# emmariescurrena.github.io
+# emmariescurrena portfolio
 
-A page to upload a particular project
-
-Current: Repisas 101
+A page to upload projects
