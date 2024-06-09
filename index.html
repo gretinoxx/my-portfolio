@@ -1,358 +1,66 @@
 <!DOCTYPE html>
 <html lang="es" data-theme="">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css"> 
-    <title>Repisas 101</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>My Portfolio | emmariescurrena</title>
 </head>
+
 <body>
-    <button
-        type="button"
-        id="button"
-        data-theme-toggle=""
-        aria-label="">
+    <button type="button" id="button" data-theme-toggle="" aria-label="">
         <img id="buttonImg" src="">
     </button>
     <section class="top">
-        <h1>Repisas <strong>101</strong></h1>
-        <h2>Una guía simple e intuitiva para hacer tu propia repisa</h2>
+        <h1>My portfolio
+            <strong class="code">emmariescurrena</strong>
+        </h1>
     </section>
-    <section class="what">
+    <section class="bio">
         <h2>¿Qué es una repisa?</h2>
         <ol>
             <li>Placa, normalmente de madera, que se amura a la
-            pared con la ayuda de diferentes métodos, con el propósito de servir
-            de soporte.
+                pared con la ayuda de diferentes métodos, con el propósito de servir
+                de soporte.
             </li>
             <li>Excelente forma de aprovechar espacio de las paredes.</li>
-            <li>Algo que te hace más feliz (objetivamente)</li>    
+            <li>Algo que te hace más feliz (objetivamente)</li>
         </ol>
     </section>
-    <section class="cautions">
-        <div class="cautionsTitle">
-            <h2>Prestar atención</h2>
-            <p>Explicaré a continuación algunas cosas a tener en cuenta antes de
-            comenzar a trabajar. <strong>Por favor, leer hasta el final</strong>.
-            </p>
-        </div>
-        <div class="caution">
-            <h3>Terminología</h3>
-            <p>Las medidas de la madera se leen <strong>"largo x ancho x alto"
-            </strong>
-            </p>
-            <p>Las medidas de las ménsulas se leen <strong>"largo una pata x
-                largo otra pata x ancho"</strong>
-            </p>
-            <p>Las medidas se expresan en <strong>centímetros</strong> excepto
-                que se exprese lo contrario
-            </p>
-        </div>
-        <div class="caution">
-            <h3>Dimensiones de la repisa</h3>
-            <p>El tamaño de la repisa y la cantidad de ménsulas dependerá del
-            propósito de la repisa. Por ejemplo, una repisa de 80x20x18mm
-            dedicada a un par de figuritas solo requerirá
-            dos ménsulas, pero una repisa del mismo tamaño dedicada a plantas
-            requerirá, probablemente, de tres. Por esto mismo, en
-            caso de duda, recomiendo colocar dos ménsulas a los costados,
-            probar si la madera se arquea o se ve forzada y, si es así, colocar
-            una tercera ménsula en el medio.
-            </p>
-            <p>Esta guía fue testeada con repisas de 1m sin mucha carga. Para
-            repisas de mayor ancho, bastará con agregar más ménsulas, pero en
-            profundidad, recomiendo no superar los 30cm. En caso de hacerlo,
-            recomiendo amurar de otra forma.
-            </p>
-        </div>
-        <div class="caution">
-            <h3>Dónde colocar la repisa</h3>
-            <p>Hay que ser muy cuidadosos, ya que, agujereando donde no se debe, 
-            podemos dañar la pared, algo que este dentro, el taladro y hasta a
-            nosotros mismos. <strong>Recomiendo investigar</strong>, ya que soy
-            algo ignorante en el tema, pero procedo a dejar algunos <strong>
-            lugares donde es mayormente riesgoso agujerear</strong>, tanto cerca
-            , como horizontal y verticalmente, excepto que sepas lo que estás
-            haciendo:
-            </p>
-            <ul>
-                <li>Lámparas</li>
-                <li>Enchufes</li>
-                <li>Salidas de agua</li>
-                <li>Llaves de gas</li>
-                <li>Azulejos, metal o cualquier material muy resistente</li>
-            </ul>
-        </div>
-    </section>
-    <section class ="need">
-    <div class="needTitle">
-        <p>Para una repisa de 60x20x18mm...</p>
-        <h2>Necesitamos:</h2>
-    </div>
-    <div class="checkboxes">
-        <div class="needles">
-            <h3>Materiales</h3>
-            <div class="list">
-                <label class="item">
-                    <input type="checkbox" name="wood"/>
-                    Madera de 60x20x18mm
-                </label>
-                <label class="item">
-                    <input type="checkbox" name="bracket"/>
-                    2 ménsulas esquineras de 20x15x1,5in
-                </label>                
-                <label class="item">
-                    <input type="checkbox" name="screws"/>
-                    4 tornillos para madera de 2 cm
-                </label>                
-                <label class="item">
-                    <input type="checkbox" name="ramplug"/>
-                    4 tacos con respectivos tornillos
-                </label>        
-                <label class="item">
-                    <input type="checkbox" name="sandpaper"/>
-                    Lija de mano grano n°80
-                </label>                
-            </div>
-        </div>
-        <div class="needles">
-            <h3>Herramientas</h3>
-            <div class="list">
-                <label class="item">
-                    <input type="checkbox" name="pencil">
-                    Lápiz
-                </label>
-                <label class="item">
-                    <input type="checkbox" name="meter"/>
-                    Cinta métrica
-                </label>
-                <label class="item">
-                    <input type="checkbox" name="screwdriver"/>
-                    Destornillador phillips
-                </label>
-                <label class="item">
-                    <input type="checkbox" name="drill"/>
-                    Taladro
-                </label>
-                <label class="item">
-                    <input type="checkbox" name="mechaWall"/>
-                    Mecha de 8mm para pared
-                </label>
-                <label class="item">
-                    <input type="checkbox" name="mechaWood"/>
-                    Mecha de 4mm para madera
-                </label>
-                <label class="item">
-                    <input type="checkbox" name="level"/>
-                    Nivel de mano
-                </label>
-                <label class="item">
-                    <input type="checkbox" name="hammer"/>
-                    Martillo
-                </label>
-                <label class="item">
-                    <input type="checkbox" name="square"/>
-                    Escuadra de precisión
-                </label>
-            </div>
-        </div>
-        <div class="needles">
-            <h3>Protección</h3>
-            <div class="list">
-                <label class="item">
-                    <input type="checkbox" name="glasses"/>
-                    Gafas de protección                    
-                </label>
-                <label class="item">
-                    <input type="checkbox" name="auditive"/>
-                    Protector auditivo                    
-                </label>
-            </div>
-        </div>
-    </div>
-    </section>
-    <section class="steps">
-        <h2 class="stepsTitle">Pasos a seguir</h2>
-        <div class="stepsDiv">    
-        <div class="step">
-            <h3>1. Preparar madera</h3>
-            <div class="substep">
-                <p>Si cortamos la madera o pedimos que la corten, debemos lijarla. 
-                Debemos hacer frotes cortos para así evitar levantar astillas y
-                lastimarnos. La madera está lista cuando se sienta lisa al tacto.
+    <section class="projects">
+        <div class="project">
+            <div class="projectText">
+                <h3>Dimensiones de la repisa</h3>
+                <p>El tamaño de la repisa y la cantidad de ménsulas dependerá del
+                    propósito de la repisa. Por ejemplo, una repisa de 80x20x18mm
+                    dedicada a un par de figuritas solo requerirá
+                    dos ménsulas, pero una repisa del mismo tamaño dedicada a plantas
+                    requerirá, probablemente, de tres. Por esto mismo, en
+                    caso de duda, recomiendo colocar dos ménsulas a los costados,
+                    probar si la madera se arquea o se ve forzada y, si es así, colocar
+                    una tercera ménsula en el medio.
                 </p>
-                <figure class="photos">
-                    <img class="photo" src="./img/empty.jpg"
-                    alt="lijando-madera">
-                </figure>
-            </div>
-        </div>
-        <div class="step">
-            <h3>2. Atornillar ménsulas a la madera</h3>
-            <div class="substep">
-                <p>Ahora debemos marcar donde irán las ménsulas. <strong>La ménsula
-                debe estar a 2,5cm aprox. del lateral, recto respecto a la madera y la
-                pata que va a la pared debe quedar a la misma altura que el
-                borde de la madera.</strong> Cuando vemos que cumple los
-                criterios, marcamos la madera a través de los agujeros de la
-                ménsula
+                <p>Esta guía fue testeada con repisas de 1m sin mucha carga. Para
+                    repisas de mayor ancho, bastará con agregar más ménsulas, pero en
+                    profundidad, recomiendo no superar los 30cm. En caso de hacerlo,
+                    recomiendo amurar de otra forma.
                 </p>
-                <figure class="photos">
-                    <div class="row">
-                        <img class="photoGroup" src="./img/posicionar-mensula.jpg"
-                        alt="lijando-madera">
-                        <img class="photoGroup" src="./img/posicionar-mensula-2.jpg"
-                        alt="lijando-madera">
-                    </div>
-                </figure>
             </div>
-            <div class="substep">
-                <p>Cuando vemos que cumple los
-                criterios, marcamos la madera a través de los agujeros de la
-                ménsula
-                </p>
-                <figure class="photos">
-                    <div class="row">
-                        <img class="photo" src="./img/marcar-repisa.jpg">
-                    </div>
-                </figure>
-            </div>
-            <div class="substep">
-                <p>Luego de colocar la mecha para madera, agujerear el centro de la
-                marca entre 0,5 y 1cm, para facilitar la entrada del tornillo.
-                </p>
-                <figure class="photos">
-                    <img class="photo" src="./img/agujerear-repisa.jpg">
-                </figure>
-            </div>
-            <div class="substep">
-                <p>Posicionar las ménsulas y atornillar hasta que este firme. <strong>No
-                pasarse, ya que podemos "falsear" el agujero</strong>, lo que no
-                permitirá que el tornillo quede firme.
-                </p>
-                <figure class="photos">
-                    <img class="photo" src="./img/atornillar-repisa.jpg">
-                </figure>
-            </div>
-            <div class="substep">
-                <p>Repetir con las demás ménsulas</p>
-                <figure class="photos">
-                    <img class="photo" src="./img/repetir-repisa.jpg">
-                </figure>
-            </div>
-        </div>
-        <div class="step">
-            <h3>3. Primer agujero</h3>
-            <div class="substep">
-                <p>Posicionar la repisa en donde iría y marcar una de las esquinas
-                    cercanas a la madera.
-                </p>
-                <figure class="photos">
-                    <img class="photo" src="./img/posicionar-aprox.jpg">
-                </figure>
-            </div>
-            <div class="substep">
-                <p>Habiendo colocado la mecha para pared en el taladro y seleccionado
-                el modo taladro del mismo, agujerear lentamente en línea
-                recta el lugar donde marcamos. Si es ladrillo hueco, agujerear
-                hasta que el taladro no oponga resistencia (cuidado, porque si
-                venimos haciendo mucha fuerza para ese momento, se nos puede ir 
-                el taladro y dañar la pared). Si no lo es, agujerear hasta
-                que el tarugo pueda entrar completamente.
-                </p>
-                <figure class="photos">
-                    <img class="photo" src="./img/agujerear-pared.jpg">
-                </figure>
-            </div>
-            <div class="substep">
-                <p>Colocar tarugo dentro del agujero. Usar el martillo para
-                    que quede totalmente dentro. Si no entra del todo, es que
-                    hace falta agujerear más con el taladro.
-                </p>
-                <figure class="photos">
-                    <img class="photo" src="./img/tarugo-1.jpg"
-                    style="transform: scaleX(-1);">
-                </figure>
-            </div>
-            <div class="substep">
-                <p>Atornillar hasta que quede casi firme, para poder manipularlo
-                    luego
-                </p>
-                <figure class="photos">
-                    <img class="photo" src="./img/atornillar-pared-1.jpg">
-                </figure>
-            </div>
-        </div>
-        <div class="step">
-            <h3>Segundo agujero</h3>
-            <div class="substep">
-                <p>Para nivelar la repisa, debemos acomodarla hasta que la
-                    burbuja del tubo que está paralelo a la repisa quede entre
-                    las dos líneas. 
-                </p>
-                <figure class="photos">
-                    <img class="photo" src="./img/nivelar.jpg">
-                </figure>
-            </div>
-            <div class="substep">
-                <p>Mientras sostenemos la repsia para que se mantenga nivelada,
-                    marcamos la esquina contraria a la anterior. Soltamos la
-                    repisa y repetimos el proceso para agujerear, colocar el
-                    tarugo y atornillar.
-                </p>
-                <figure class="photos">
-                    <div class="row">
-                        <img class="photoGroup" src="./img/marcado-2.jpg">
-                        <img class="photoGroup" src="./img/agujear-pared-2.jpg">
-                    </div>
-                    <div class="row">
-                        <img class="photoGroup" src="./img/tarugo-2.jpg">
-                        <img class="photoGroup" src="./img/atornillar-pared-2.jpg">
-                    </div>
-                </figure>
-            </div>
-        </div>
-        <div class="step">
-            <h3>Agujeros restantes</h3>
-            <div class="substep">
-                <p>Marcar agujeros restantes y desatornillar la repisa de la
-                    pared</p>
-                <figure class="photos">
-                    <div class="row">
-                        <img class="photoGroup" src="./img/marcado-final-1.jpg">
-                        <img class="photoGroup" src="./img/marcado-final-2.jpg">
-                    </div>
-                    <div class="row">
-                        <img class="photoGroup" src="./img/marcado-final-3.jpg">
-                        <img class="photoGroup" src="./img/marcado-final-4.jpg">
-                    </div>
-                </figure>
-            </div>
-            <div class="substep">
-                <p>Repetir proceso para agujerear, colocar el tarugo y
-                    atornillar</p>
-                <figure class="photos">
-                    <img class="photo" src="./img/repisa-puesta.jpg">
-                </figure>
-            </div>
-        </div>
-        <div class="step">
-            <h3>Testear</h3>
-            <div class="substep">
-                <p>Colocar objetos</p>
-                <figure class="photos">
-                    <img class="photo" src="./img/repisa-testeada.jpg">
-                </figure>
-            </div>
-        </div>
+            <figure class="projectImg">
+                <img class="img" src="./img/repisas-101-1.png">
+                <img class="img" src="./img/repisas-101-2.png">
+                <img class="img" src="./img/repisas-101-3.png">
+            </figure>
         </div>
     </section>
     <footer>
         <p>Made by emmariescurrena</p>
         <a href="https://github.com/emmariescurrena" target="_blank">
-            <img src="./img/github.png" alt="github" >
+            <img id="githubImg" src="./img/github-mark.svg" alt="github">
         </a>
     </footer>
     <script src="./script.js"></script>
 </body>
+
 </html>
