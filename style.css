@@ -38,6 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     color: var(--color-fg);
+    background-color: var(--color-bg2);
 }
 
 #button {
@@ -114,8 +115,13 @@ strong {
     background-color: var(--color-bg1);
 }
 
+a:link,
+a:visited {
+    color: var(--color-fg);
+}
+
 .top {
-    padding: 2em 7.5%;
+    padding: 1.75em 7.5% 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,11 +133,11 @@ strong {
 }
 
 #topCode {
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 0.25em 0;
 }
 
-.bio {
+.about {
     display: flex;
     flex-direction: column;
     padding: 2em 7.5% 1em;
@@ -146,8 +152,13 @@ strong {
 .project {
     display: flex;
     flex-direction: column;
-    padding: 1.5em 7.5%;
+    padding: 1em 7.5%;
+    gap: 3em;
     background-color: var(--color-bg1);
+}
+
+.projectText {
+    flex: 1;
 }
 
 .projectImg {
@@ -184,6 +195,7 @@ strong {
 
 
 footer {
+    margin-top: 1.5em;
     display: flex;
     justify-content: center;
     align-items: center;
