@@ -160,6 +160,7 @@ a:visited {
 .lists {
     display: flex;
     flex-direction: column;
+    gap: 0em;
 }
 
 .list {
@@ -167,8 +168,7 @@ a:visited {
 }
 
 .projectImg,
-.wholeImg,
-.inProgress {
+.wholeImg {
     flex: 1 1 auto;
     display: flex;
     margin: 0;
@@ -184,8 +184,7 @@ a:visited {
     }
 }
 
-.wholeImg,
-.inProgress {
+.wholeImg {
     aspect-ratio: 16 / 9;
 }
 
@@ -202,18 +201,6 @@ a:visited {
 .rightHalf {
     background-position: right;
     border-radius: 0px 10px 10px 0px;
-}
-
-.inProgress {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    font-weight: 900;
-    text-align: center;
-    color: #7d00a7;
 }
 
 
@@ -270,6 +257,7 @@ a>img {
 @media (min-width: 600px) {
     .lists {
         flex-direction: row;
+        gap: 1em;
     }
 }
 
@@ -294,6 +282,7 @@ a>img {
 
     .lists {
         flex-direction: column;
+        gap: 0em;
     }
 
     .projectImg,
